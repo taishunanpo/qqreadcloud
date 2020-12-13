@@ -15,14 +15,15 @@ import re
 
 ###################################################
 # 对应方案2: 下载到本地,需要此处填写
-cookies1 = ""
-cookies2 = ""
+cookies1 = "_xmLog=h5&11256f80-58d4-4f83-994b-512f239b9285&2.2.5; 1&_device=iPhone&82077ECE-CFF2-4DAE-9E96-53647B497241&1.1.13; 1&_token=79669432&5268BE20340C77FFCDEB4CAB0659F706F1C2806DEBF05006AC9ADCD6D903B751B76E99E85E482M0E2E344E088BBA4_; NSUP=42E1DAC7%2C41DE7240%2C1606914932736; XD=bE4bI2SZCax9MFRNMtybTy7Aw2h3pOhDju5HLbaXpiaa46CVFbNddPz/mWdnkSiZFNPcmJBVCzzsziKKLKtIiA==; XUM=82077ECE-CFF2-4DAE-9E96-53647B497241; ainr=0; c-oper=%E6%9C%AA%E7%9F%A5; channel=ios-b1; device_model=iPhone 8 Plus; idfa=82077ECE-CFF2-4DAE-9E96-53647B497241; impl=com.ximalaya.tingLite; ip=10.94.27.48; net-mode=WIFI; res=1242%2C2208"
+cookies2 = "B8-A8B69E52433B&1.1.13; 1&_token=274973616&3C1C2400140C2875B946FE283F1EBE5A109A9085D0FC6C825DED26BA3717DFC5428F799B103D2MCF08863D23D7BF0_; NSUP=; XD=XWbKB6qP/N0bzfqSPbKZIExobYqsrRBPum7Glrli37ub5NQUVR+i6kZNNnA/fnjw5UCp2fzkKzQBKEsGHpB9Vg==; XUM=4ECC3D4F-C1B0-4BBB-A8B8-A8B69E52433B; ainr=0; c-oper=%E7%A7%BB%E5%8A%A8; channel=ios-b1; device_model=iPhone 12; idfa=4ECC3D4F-C1B0-4BBB-A8B8-A8B69E52433B; impl=com.ximalaya.tingLite; ip=10.100.146.225; net-mode=4G; res=1170%2C2532; _xmLog=h5&4b63fcf8-4a9a-48a4-a34b-58b60c1445e0&2.2.5"
+cookies3 = "_xmLog=h5&d4c6db79-63a6-4f2b-b97b-044ddc673b83&2.2.5; 1&_device=iPhone&1D40C6CB-1C99-4478-B07D-100B4693DCE0&1.1.13; 1&_token=53558899&AF7EC310140CBA9FA8813075015B428885037CF9FDB3ADC7B1EFE621F4F9739C765001D18FB848M4B900BEDE8EFB56_; NSUP=; XD=MY7xjbdywXMGnVr2eJdVbUL3T4+h9Ye9wwJWRaj/PWNsa+Y4vY/lYyOpWTClGb3JeNOR7s/i3ZE1X+REKyuN5w==; XUM=1D40C6CB-1C99-4478-B07D-100B4693DCE0; ainr=0; c-oper=%E6%9C%AA%E7%9F%A5; channel=ios-b1; device_model=iPhone 12; idfa=1D40C6CB-1C99-4478-B07D-100B4693DCE0; impl=com.ximalaya.tingLite; ip=100.0.29.224; net-mode=WIFI; res=1170%2C2532"
 
-cookiesList = [cookies1, ]   # 多账号准备
+cookiesList = [cookies1, cookies2, cookies3]   # 多账号准备
 
 # 通知服务
-BARK = ''                   # bark服务,自行搜索; secrets可填;形如jfjqxDx3xxxxxxxxSaK的字符串
-SCKEY = ''                  # Server酱的SCKEY; secrets可填
+BARK = 'AF7hkZtFJ6uXSWpB3Szgdf'                   # bark服务,自行搜索; secrets可填;形如jfjqxDx3xxxxxxxxSaK的字符串
+SCKEY = 'SCU132173T11e2fa90537aa54e2f305cd4a304edc25fc7b1ffb738c'                  # Server酱的SCKEY; secrets可填
 TG_BOT_TOKEN = ''           # telegram bot token 自行申请
 TG_USER_ID = ''             # telegram 用户ID
 
