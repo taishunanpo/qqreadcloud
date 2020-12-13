@@ -3,7 +3,7 @@
 """
 
 
-def main_handler(event, context):
+def index.main_handler(event, context):
     temp = __import__("xmly_speed")
     temp.run()
     return "hello world"
